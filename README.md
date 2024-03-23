@@ -1,3 +1,4 @@
+#BookFellas
 BookFellas is a project for Software Engineering 1 course of ECE AUTH.  
 We try to create an online application where everyone can share and upload books,  
 create their own personal library and match interests with other passionate book lovers.  
