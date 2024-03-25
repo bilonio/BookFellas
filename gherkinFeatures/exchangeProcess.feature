@@ -13,5 +13,8 @@ Feature:exchange process
     When I and my 'book fella' click on the confirm button saying "exchange completed"
     Then the chat will be closed
     And the system deletes the books
-    Scenario:cancel the exchange
-    Scenario:
+    Scenario: cancel the exchange
+    Given that I am on chat 
+    When I click cancel button saying "exchange canceled"
+    Then the chat will be closed
+

@@ -64,7 +64,7 @@ Feature: manage book results
     Scenario: sort by rating, alphabet 
         Given that I am in the home page
         When I sort by rating, alphabet
-        Then I should see the books in the search results
+        Then I should see the search results
         And I should be able to scroll down the page
 
 Feature: send notification
