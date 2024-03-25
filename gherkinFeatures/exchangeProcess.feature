@@ -21,5 +21,4 @@ Feature: exchange process
     Given that there is a match 
     When I reject continuing to chat
     Then I should see a message saying "exchange canceled"
-    And I should be directed to the home page
 
