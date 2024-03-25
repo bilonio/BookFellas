@@ -7,7 +7,7 @@ Feature: send notification
         And I should be able to click on the notification
         And i should be able to see the book that was liked
         And i should be able to see who liked it  
-        And i should be able to click on the user who liked it?
+        And i should be able to click on the user who liked it
     Scenario:  notification to leave a rating
         Given that I am in the web page or I have an an internet connection
         When exchange process is completed or canceled
