@@ -5,7 +5,7 @@ Feature: Navigate to the application
     Given that I am logged in to the application
     When I click on a 'book item'
     Then I should be directed to the 'books page'
-    And I should be able to see the <details> (title, category, author, description, photos, cover photo, location) of the book
+    And I should be able to see the <details> of the book
     And I should be able to like the book
 
     Examples:
@@ -29,7 +29,7 @@ Feature: Navigate to the application
     Given that I am logged in to the application
     When I click on a user 
     Then I should be directed to the user's profile
-    And I should be able to see their library,ratings and profile <details> (username, location, bio, profile photo
+    And I should be able to see their library,ratings and profile <details> 
 
     Examples:
         | details       | values                                  |
