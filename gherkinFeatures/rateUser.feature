@@ -7,4 +7,4 @@ Feature: Rate user
         Then I should see be able to rate the "book fella" on a scale of 1-5 
         And I should be able to leave a comment on my rating
         And I should be able to submit my rating 
-        And I should be able to see the rating of the "book fella" in their profile
+        And I should be able to see the my rating  
