@@ -5,7 +5,7 @@ Feature: Control availability
     When  I cancel an exchange process
     Then the books should be available 
     And users should be able to like the books
-    And books are removed from the 'book lists'
+    And books are removed from the 'my likes'
 
     Scenario: Make the book unavailable
     Given that I am logged in at the application
