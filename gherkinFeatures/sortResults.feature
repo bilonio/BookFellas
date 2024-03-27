@@ -1,4 +1,6 @@
 
+Feature: Sort book results
+
   Scenario: Sort books by rating or alphabetically
     Given I am on the home page  
     When I sort books by the following criteria:
