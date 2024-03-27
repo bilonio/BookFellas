@@ -7,7 +7,7 @@ Feature: Like books
     Then the book is added to my liked books
 
     Scenario: Unlike a book 
-    Given that I have clicked a book
+    Given that I have liked a book
     When I click the like button 
     Then  the like is removed
     And the book is removed from my liked books
