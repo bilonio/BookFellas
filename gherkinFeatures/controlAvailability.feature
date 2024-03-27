@@ -1,5 +1,6 @@
 
 Feature: Control availability
+
     Scenario: Make the book available
     Given that I am logged in at the application 
     When  I cancel an exchange process
