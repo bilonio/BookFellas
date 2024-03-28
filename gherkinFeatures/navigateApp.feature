@@ -4,7 +4,7 @@ Feature: Navigate to the application
     Scenario: Navigate to books
     Given I am logged in to the application
     When I click on a 'book item'
-    Then I should be directed to the 'books page'
+    Then I should be directed to the book's page
     And I should be able to see the <details> of the book
     And I should be able to like the book
 
