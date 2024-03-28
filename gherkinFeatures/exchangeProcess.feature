@@ -18,11 +18,11 @@ Feature: Exchange process
     
     Scenario: Cancel the exchange
     Given that I am on chat 
-    When I click cancel button saying "exchange canceled"
+    When I click cancel button saying "cancel exchange"
     Then the chat will be closed
 
     Scenario: Reject chat 
     Given that there is a match 
     When I reject continuing to chat
-    Then I should see a message saying "exchange canceled"
+    Then I should see a message saying "cancel exchange"
 
